@@ -2,109 +2,92 @@
 <html lang="en">
 
 <head>
+
+  <!--The usual meta tags. -->
+
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta content="description" name="description">
+  <meta name="description" content="Abhigyan Trips' portfolio, list of projects, and connections.">
   <meta name="google" content="notranslate" />
-  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+  <meta name="author" content="Made by the one and only.">
 
-  <!-- Disable tap highlight on IE -->
+  <!-- Disable tap highlight on IE. -->
   <meta name="msapplication-tap-highlight" content="no">
-  
-  <title>Abhigyan Trips</title>  
 
+  <!-- Tab Head -->
+
+  <title>Abhigyan Trips</title>  
   <link rel="icon" href="https://i.imgur.com/QuCFswW.png" type="image/x-icon">
 
-<link href="./main.3da94fde.css" rel="stylesheet"></head>
+<link href="./main.3f6952e4.css" rel="stylesheet"></head>
 
-<body>
+<body class="minimal">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
 
- <!-- Add your content of header -->
+<!-- Content of Header -->
 
- <header>
-  <nav class="navbar navbar-fixed-top navbar-default">
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-inverse">
     <div class="container">
-        <button type="button" class="navbar-toggle">
-          <span class="sr-only">Toggle navigation</span>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle Navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
 
-      <nav class="navbar-fullscreen" id="navbar-middle">
-        <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <ul class="navbar-fullscreen-links">
-          <li><a href="./index.html" title="">HOME</a></li>
-          <li><a href="./project.html" title="">PROJECTS</a></li>
-          <li><a href="./about.html" title="">ABOUT</a></li>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./works.html" title="">02 : Works</a></li>
+          <li><a href="./about.html" title="">03 : About Me</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
         </ul>
 
-        <div class="footer-container">
-           
-          <p><small>© Abhigyan Trips | Kudos to <a href="http://www.mashup-template.com/" title="Create a website with free HTML templates.">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Amazing free images!">Unsplash</a> for the template. :)</small></p>
-          <p class="footer-share-icons">
-              <a href="https://twitter.com/AbhigyanTrips" class="fa-icon" title="">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.instagram.com/abhigyantrips/" class="fa-icon" title="">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.youtube.com/channel/UC_isV6-fOWlMsvQF0w6-ZnQ/videos/" class="fa-icon" title="">
-                  <i class="fa fa-youtube" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.reddit.com/user/AbhigyanTrips" class="fa-icon" title="">
-                <i class="fa fa-reddit" aria-hidden="true"></i>
-              </a>
-              <a href="https://github.com/abhigyantrips" class="fa-icon" title="">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </a>
-          </p>
-                       
-        </div>
 
-
-      </nav> 
-    
+      </div> 
     </div>
   </nav>
 </header>
 
-  
-<div class="hero-full-container background-image-container white-text-container" style="background-image:url('./assets/images/img-home.jpg')">
-  <div class="overlay-gradient"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-7 col-md-offset-1">
-        <div class="hero-full-wrapper">
-          <div class="text-content">
-            <h1>Abhigyan Trips</h1>
-            <p>This is my low-budget profile, made with a random free template and free icons. :P<br>
-            I swear I'll get better once I learn HTML and CSS properly.<br><b>Click on the thingy in the top-right.</b></p>
+<!-- Site Content -->
+
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/home-bg.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="hero-full-wrapper">
+            <div class="text-content">
+              <h1>Heya! I'm<br>
+                <span id="typed-strings">
+                  <span>Abhigyan Trips.</span>
+                  <span>a JEE aspirant.</span>
+                  <span>a Cuber, a Programmer.</span>
+                  <span>a Bookworm, an Audiophile.</span>
+                </span>
+                <span id="typed"></span>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+
+<!-- This is the part that handles the typing animation. -->
+<!-- There's also an option for moving background in the .js file [movingBackgroundImage()], if you want to use it. :] -->
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
-    navbarFixedTopAnimation();
-    closeMenuBeforeGoingToPage();
+     type();
   });
 </script>
 
 
-
-
-<script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      navbarToggleSidebar();
-      closeMenuBeforeGoingToPage();
-      navActivePage();
-    });
-</script>
- <script type="text/javascript" src="./main.4c6e144e.js"></script></body>
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
 
 </html>
