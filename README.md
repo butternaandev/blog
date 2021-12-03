@@ -1,5 +1,5 @@
 ![Abhigyan Trips](./assets/images/header-1.jpg)
-## [Abhigyan Trips' Website](https://abhigyantrips.is-a.dev/)
+## [Abhigyan Trips' Website](https://abhigyantrips.dev/)
 ---
 Hello! https://abhigyantrips.is-a.dev/ is my portfolio website for the time being - I plan on getting a domain soon™, and this is a test to see:
 1. If can handle making a website from scratch, and maintain it. (this comes down to my laziness)
