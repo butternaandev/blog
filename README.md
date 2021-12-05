@@ -1,7 +1,7 @@
 ![Abhigyan Trips](./assets/images/header-1.jpg)
 ## [Abhigyan Trips' Website](https://abhigyantrips.dev/)
 ---
-Hello! https://abhigyantrips.is-a.dev/ is my portfolio website for the time being - I plan on getting a domain soon™, and this is a test to see:
+Hello! https://abhigyantrips.dev/ is my portfolio website for the time being - I plan on getting a domain soon™, and this is a test to see:
 1. If can handle making a website from scratch, and maintain it. (this comes down to my laziness)
 2. Whether I *need* a website in the first place - this might be more intuitive than a `resume.pdf`, but I believe a LinkedIn profile should suffice.
 3. To experiment with my ability to code in HTML and CSS - since I plan on becomeing a dev, handling the website from scratch will also test my knowledge in coding.
