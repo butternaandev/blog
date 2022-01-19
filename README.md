@@ -1,1 +1,1 @@
-[Butternaan](https://www.butternaan.xyz/invite)
+Jugaad? Jugaad.
