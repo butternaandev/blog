@@ -28,7 +28,7 @@ show_tags = true
 show_menu_items = 3
 
 main_menu = [
-              {url="/blog/about/", name="About"},
-              {url="/blog/contact/", name="Contact"},
-              {url="/blog/projects/", name="Projects"},
+              {url="/about/", name="About"},
+              {url="/contact/", name="Contact"},
+              {url="/projects/", name="Projects"},
 ]
