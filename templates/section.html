@@ -1,0 +1,19 @@
+{% extends "index.html" -%}
+
+{%- block title %}
+    <title>{{ section.title }} - {{ config.extra.author }}</title>
+    {#%- include "snippets/social.html" %#}
+{%- endblock title -%}
+
+{%- block main -%}
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="{{ section.permalink  }}">{{ section.title }}</a>
+            </h1>
+            {{ posts::section_meta(section=section, author=config.extra.show_author) }}
+        </header>
+            {{ section.content | safe }}
+        {#%- include "snippets/comments.html"  -%#}
+    </article>
+{%- endblock main -%}

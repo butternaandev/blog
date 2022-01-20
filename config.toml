@@ -1,0 +1,34 @@
+base_url = "/"
+
+title = "Butternaan's Jugaad Blog"
+description = "Abhigyan Trips' random thoughts, rants and snippets, all in one place."
+
+default_language = "en"
+generate_feed = true
+compile_sass = true
+
+highlight_code = true
+highlight_theme = "gruvbox-dark" 
+
+build_search_index = false
+
+taxonomies = [
+           {name = "tags"},
+           {name = "categories"},
+]
+
+[extra]
+
+author = "Butternaan"
+
+show_author = false
+show_categories = true
+show_tags = true
+
+show_menu_items = 3
+
+main_menu = [
+              {url="/about/", name="About"},
+              {url="/contact/", name="Contact"},
+              {url="/projects/", name="Projects", external=true},
+]
