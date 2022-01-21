@@ -3,7 +3,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ current_url }}"/>
     <meta property="og:description" content="{{ social::og_description() }}"/>
-    <meta property="og:image" content="/assets/butternaan-meta-image.png"/>
+    <meta property="og:image" content="https://butternaan.xyz/blog/assets/butternaan-meta-image.png"/>
     <meta name="twitter:card" content="summary" />
     <meta name="theme-color" content="#ffcc00" />
 {% endmacro og_preview %}
@@ -27,14 +27,14 @@
 {% endmacro og_description %}
 
 {% macro og_title() -%}
-    {{ config.title }} -&nbsp;
+    {{ config.title }} &nbsp;
     {%- if section -%}
         {%- if section.title -%}
-            {{ section.title | striptags }}
+            - {{ section.title | striptags }}
         {%- endif -%}
     {%- elif page -%}
         {%- if page.title -%}
-            {{ page.title | striptags }}
+            - {{ page.title | striptags }}
         {%- endif -%}
     {%- endif -%}
 {% endmacro og_title %}

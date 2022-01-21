@@ -1,8 +1,6 @@
 +++
-title = "contact"
+title = "Contact"
 path = "contact"
 +++
 
-# some links
-
-- [Lol hi](https://abhigyantrips.dev/)
+Don't.
