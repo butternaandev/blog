@@ -28,7 +28,7 @@ show_tags = true
 show_menu_items = 3
 
 main_menu = [
-    {url="/about/", name="About"},
-    {url="https://github.com/orgs/butternaandev/repositories", name="Projects", external=true},
-    {url="/contact/", name="Contact"},
+    {url="https://butternaan.xyz/about", name="About", external=true},
+    {url="https://butternaan.xyz/projects", name="Projects", external=true},
+    {url="https://butternaan.xyz/contact", name="Contact", external=true},
 ]
